@@ -328,3 +328,7 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+
+!/src/IdentityServer/Properties/launchSettings.json
+!/src/JsAuthCode/Properties/launchSettings.json
+!/src/JsAuthCodeGoogle/Properties/launchSettings.json
