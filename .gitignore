@@ -332,3 +332,4 @@ ASALocalRun/
 !/src/IdentityServer/Properties/launchSettings.json
 !/src/JsAuthCode/Properties/launchSettings.json
 !/src/JsAuthCodeGoogle/Properties/launchSettings.json
+/src/IdentityServer/identityserver4_log.txt

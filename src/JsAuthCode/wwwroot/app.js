@@ -44,7 +44,7 @@ mgr.events.addUserUnloaded(function () {
     showTokens();
 });
 mgr.events.addAccessTokenExpiring(function () {
-    log("Access token expiring...");
+    //log("Access token expiring...");
 });
 mgr.events.addSilentRenewError(function (err) {
     log("Silent renew error: " + err.message);
@@ -110,10 +110,10 @@ if (window.location.hash) {
 }
 
 document.querySelector(".login").addEventListener("click", login, false);
-document.querySelector(".popup").addEventListener("click", popup, false);
-document.querySelector(".renew").addEventListener("click", renewToken, false);
-document.querySelector(".call").addEventListener("click", callApi, false);
-document.querySelector(".revoke").addEventListener("click", revoke, false);
+//document.querySelector(".popup").addEventListener("click", popup, false);
+//document.querySelector(".renew").addEventListener("click", renewToken, false);
+//document.querySelector(".call").addEventListener("click", callApi, false);
+//document.querySelector(".revoke").addEventListener("click", revoke, false);
 document.querySelector(".logout").addEventListener("click", logout, false);
 
 

@@ -125,7 +125,8 @@ namespace IdentityServer
                         "http://localhost:5002"
                     },
 
-                    AllowOfflineAccess = true
+                    AllowOfflineAccess = true,
+                    AccessTokenLifetime = 3600
                 },
                 // OpenID Connect hybrid flow client (MVC)
                 new Client
@@ -160,7 +161,8 @@ namespace IdentityServer
                         "http://localhost:5003"
                     },
 
-                    AllowOfflineAccess = true
+                    AllowOfflineAccess = true,
+                    AccessTokenLifetime = 3600
                 }
             };
         }
